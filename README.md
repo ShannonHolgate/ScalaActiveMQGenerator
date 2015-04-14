@@ -4,7 +4,7 @@ Simple message generator based on xml message files.
 **Note: This project is built for ActiveMQ 5.7. Change the activemq-core dependency version and rebuild the jar if you need a different version**
 
 ####Building the project
-If you are using **ActiveMQ 5.7 simply download the released jar**. Otherwise, follow the steps below:
+If you are using **ActiveMQ 5.7 simply download the released jar [Here](https://github.com/ShannonHolgate/ScalaActiveMQGenerator/releases/download/v0.1/messagegenerator_2.11-1.0-one-jar.jar)**. Otherwise, follow the steps below:
 	
 - change the `"org.apache.activemq" % "activemq-core" % "5.7.0"` dependency to whatever version you are using
 - run `sbt one-jar` to build the über jar
@@ -14,7 +14,7 @@ Please be aware that the sole purpose of this project is to stick some messages 
 ####Usage
 Java/Scala built über jar which simply iterates through a directory ./xml-messages and publishes them a number of times on a queue specified in ./queue-connection.conf
 
-1. Build the jar if needed using `sbt one-jar` or download the released jar
+1. Build the jar if needed using `sbt one-jar` or download the released jar [Here](https://github.com/ShannonHolgate/ScalaActiveMQGenerator/releases/download/v0.1/messagegenerator_2.11-1.0-one-jar.jar)
 2. Add a file called queue-connection.conf to the same directory as the built jar
 	3. This is a Typesafe config written using HOCON if need be.
 	4. Define the following 3 properties:
