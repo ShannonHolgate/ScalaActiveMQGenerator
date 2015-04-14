@@ -1,4 +1,4 @@
-package com.kainos.activemq.samples
+package com.shannonh.activemq.samples
 
 import java.io.File
 import java.util.concurrent.TimeUnit
