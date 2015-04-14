@@ -1,0 +1,23 @@
+<shiporder orderid="889923"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:noNamespaceSchemaLocation="shiporder.xsd">
+    <orderperson>Georgia Dell</orderperson>
+    <shipto>
+        <name>Sally Rod</name>
+        <address>43 Big Dingo</address>
+        <city>Rocktown</city>
+        <country>Uzbekistan</country>
+    </shipto>
+    <item>
+        <title>Game of Clowns</title>
+        <note>Finale</note>
+        <quantity>4</quantity>
+        <price>32.00</price>
+    </item>
+    <item>
+        <title>Tiny mouse</title>
+        <note>Don't eat</note>
+        <quantity>5</quantity>
+        <price>12.00</price>
+    </item>
+</shiporder>

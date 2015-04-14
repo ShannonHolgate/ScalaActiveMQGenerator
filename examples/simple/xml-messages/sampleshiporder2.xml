@@ -1,0 +1,22 @@
+<shiporder orderid="889923"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:noNamespaceSchemaLocation="shiporder.xsd">
+    <orderperson>Sam Johnstone</orderperson>
+    <shipto>
+        <name>Big Sam</name>
+        <address>Best Place</address>
+        <city>Belfast</city>
+        <country>Ireland</country>
+    </shipto>
+    <item>
+        <title>Hard Rock Cafe</title>
+        <note>None</note>
+        <quantity>5</quantity>
+        <price>20.00</price>
+    </item>
+    <item>
+        <title>Giant Purple Silicone Bat</title>
+        <quantity>4</quantity>
+        <price>400.00</price>
+    </item>
+</shiporder>
